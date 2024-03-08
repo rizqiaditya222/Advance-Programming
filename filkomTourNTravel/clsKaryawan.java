@@ -29,10 +29,12 @@ public void setKategoriKaryawan(String kategoriKaryawan){
 
 public void getBehaviour (String kategoriKaryawan){
    this.kategoriKaryawan = kategoriKaryawan;
-   if (kategoriKaryawan.equalsIgnoreCase("supir")){
-      System.out.println("Bertugas mengantar penumpang");
+   if (kategoriKaryawan.equalsIgnoreCase("sopir")){
+      System.out.println("Bertugas sebagai sopir penumpang");
    }else if (kategoriKaryawan.equalsIgnoreCase("supir rentcar")){
-      System.out.println();
+      System.out.println("Bertugas sebagai sopir mobil sewaan");
+   }else if (kategoriKaryawan.equalsIgnoreCase("admin")){
+      System.out.println("Bertugas menginput data penyewaan mobil dan sopir");
    }
 }
 
@@ -43,7 +45,6 @@ public void display (){
    System.out.println("Nomor Teleopn \t: "+noTelp);
    System.out.println("Jenis Kelamin \t: "+jenisKelamin);
    System.out.println("Kategori \t: "+kategoriKaryawan);
-   System.out.println("\n");
 }
 
 

@@ -5,6 +5,7 @@ class Mobil{
     String merkMobil;
     String warnaMobil;
     String tahunKeluaran;
+    String behaviour;
 
 public Mobil (){
     
@@ -25,10 +26,10 @@ public void setTahunKeluaran (String tahunKeluaran){
 
 
 public void display(){
-    System.out.println("Nomor Plat \t\t:");
-    System.out.println("Merk Mobil \t\t:");
-    System.out.println("Warna Mobil \t\t:");
-    System.out.println("Tahun Keluaran \t:");
+    System.out.println("Nomor Plat \t\t:"+noPlat);
+    System.out.println("Merk Mobil \t\t:"+merkMobil);
+    System.out.println("Warna Mobil \t\t:"+warnaMobil);
+    System.out.println("Tahun Keluaran \t\t:"+tahunKeluaran);
 }
 
 }
